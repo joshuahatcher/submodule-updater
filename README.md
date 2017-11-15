@@ -13,6 +13,6 @@ Submodule Updater is just a little executable that cuts down the grunt work and 
 
 ## Use
 
-* Run `node submoduleUpdater.js -r <repo>` where `<repo>` is equal to the name of the repo you want to update. You can also run `npm start -- -r <repo>` if you want, which will achieve the same result.
+* Run `node submoduleUpdater.js -r <repo>` where `<repo>` is equal to the name of the repo you want to update. * You can alternatively run `npm start -- -r <repo>`, which will achieve the same result.
 * Follow the prompt assuring the program that you're not crazy and really do want this to happen.
 * Assuming you set everything up correctly, your repo's submodules should be updated and committed. However, you will still have to cd into the repo's root and run a `git push` to send the updates to origin. (This is by design, so you can test the code locally before pushing; if the submodule update broke something, you can always undo the last commit by running `git reset HEAD~`, but this gets messier post-push and could result in you inadvertently putting broken code onto production.)
