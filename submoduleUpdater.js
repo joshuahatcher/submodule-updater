@@ -61,7 +61,7 @@ function updateSubmodules(repo) {
   ];
 
   exec(`cd ../${repo} && ` + GIT_STEPS.join(' && '), function(error, stdout) {
-    if (typeof stdout === 'undefined') {
+    if (!stdout.length) {
       logger.err('Problem updating submodules. Please try again.');
     }
 
