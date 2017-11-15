@@ -1,0 +1,16 @@
+{
+  "name": "sites-submodule-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "submodule_updater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Hatcher",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "prompt": "^1.0.0"
+  }
+}
