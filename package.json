@@ -4,6 +4,7 @@
   "description": "A Node script for managing repos with submodules and seamlessly updating them Edit",
   "main": "submodule_updater.js",
   "scripts": {
+    "start": "node submoduleUpdater.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joshua Hatcher",
