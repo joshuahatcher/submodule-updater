@@ -1,7 +1,7 @@
 {
-  "name": "sites-submodule-updater",
+  "name": "submodule-updater",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node script for managing repos with submodules and seamlessly updating them Edit",
   "main": "submodule_updater.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,14 @@
     "colors": "^1.1.2",
     "fs": "0.0.1-security",
     "prompt": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuahatcher/submodule-updater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuahatcher/submodule-updater/issues"
+  },
+  "homepage": "https://github.com/joshuahatcher/submodule-updater#readme"
 }
